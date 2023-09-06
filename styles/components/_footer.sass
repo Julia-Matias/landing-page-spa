@@ -1,0 +1,17 @@
+@import ../abstract/_variaveis
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+    
+
+footer
+    padding: 1.2rem
+    text-align: center
+    margin-top: 1rem
+    font-size: $tamanho-texto/2
+    border-top: 2px solid $cor-primaria
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-terciaria)
+    
+    i
+        color: $cor-terciaria
+

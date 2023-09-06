@@ -1,0 +1,47 @@
+@import "../abstract/variaveis";
+
+#texto {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    .img-final {
+        width: 30%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .texto-final {
+        width: 30%;
+        line-height: 1.5rem;
+        border-left: 6px solid $cor-primaria;
+
+        h3 {
+            font-size: $tamanho-texto/2;
+            color: $cor-primaria;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: $tamanho-texto/2.5;
+            color: $cor-primaria;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: $tamanho-texto/3;
+            font-weight: 300;
+            line-height: 1.25rem;
+        }
+
+        h3,
+        h4,
+        p {
+            padding-left: 1rem;
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+@import '../abstract/variaveis';
+
+.banner {
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    opacity: 0.9;
+    display: flex;
+
+    .inner-banner {
+        padding: 3rem;
+        background-color: $cor-terciaria;
+        opacity: 0.9;
+        border-radius: 45px;
+
+        h1 {
+            font-size: $tamanho-texto;
+            color: $cor-primaria;
+        }
+
+        h2 {
+            font-size: $tamanho-texto/2;
+            color: $cor-secundaria;
+        }
+    }
+}
